@@ -10,14 +10,18 @@ together.
 
 # Three things to remember: Support Confidence, Lift
 Rule(X, Y)
-Support : Support measures how frequently an association rule happens in a dataset.
+
+#Support  
+Support measures how frequently an association rule happens in a dataset.
 In N transactions what is the probability of purchasing both the items = Frequency(X,Y) / N
 
-Confidence : Confidence measures how strong an association rule is.
+#Confidence  
+Confidence measures how strong an association rule is.
 When X has happened, what is the likilehood for Y to happen = Frequency(X, Y) / Frequency(X)
 For instance , what is the likelihood that customer to buy a mouse along with a laptop, buy a glass of wine or ginger garlic paste with a pack of chicken.
 
-Lift : Lift is the ratio between target response and average response. 
+#Lift 
+Lift is the ratio between target response and average response. 
 As Lift is a ratio, it can have a value greater or below 1, depending on whether the model performs better than the average at predicting the outcome. 
 As a result:
 
