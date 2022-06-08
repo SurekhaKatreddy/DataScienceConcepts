@@ -23,16 +23,16 @@ a. Bagging : Also known as Bootstrap aggregating is way to reduce variance in th
    The above steps are repeated n times. It aggregates the output of individual decision trees to give the best prediction
 
    Bagging algorithms:
-   Bagging meta-estimator
-   Random forest, an ensemble of decision trees.
+   -- Bagging meta-estimator
+   -- Random forest, an ensemble of decision trees.
 
 b. Boosting:
    Multiple models are built in sequence unlike the bagging technique. Those data points that are not predicted correctly by the previous
    model are given higher weightage thereby correcting the errors of the previous model. The final model (strong learner) is the weighted 
    mean of all the models (weak learners).
    
-   AdaBoost
-   GBM
-   XGBM
-   Light GBM
-   CatBoost
+   -- AdaBoost
+   -- GBM
+   -- XGBM
+   -- Light GBM
+   -- CatBoost
