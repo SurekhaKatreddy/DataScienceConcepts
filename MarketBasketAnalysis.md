@@ -8,7 +8,7 @@ Market basket analysis is a data mining technique used by retailers to increase 
 It involves analyzing large data sets, such as purchase history, to reveal product groupings, as well as products that are likely to be purchased
 together.
 
-# Three things to remember: Support Confidence, Lift
+# Three things to remember: Support, Confidence, Lift
 Rule(X, Y)
 
 #Support  
