@@ -31,8 +31,16 @@ b. Boosting:
    model are given higher weightage thereby correcting the errors of the previous model. The final model (strong learner) is the weighted 
    mean of all the models (weak learners).
    
+   Decision stumps are constructed as opposed to decision trees in the bagging technique. Decision stumps improve upon this by splitting 
+   the examples into two subsets based on the value of one feature
+   
+   In Gradient Boosting, individual models train upon the residuals, the difference between the prediction and the actual results. 
+   Instead of aggregating trees, gradient boosted trees learns from errors during each boosting round.
+   
    -- AdaBoost
    -- GBM
    -- XGBM
    -- Light GBM
    -- CatBoost
+   
+   
