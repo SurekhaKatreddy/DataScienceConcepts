@@ -20,7 +20,7 @@ after applying striding convolution using filter of size f * f, the resultant im
 after applying padded of p pixels and using filter of size f * f, the resultant image become n + 2p - f + 1, n + 2p - f + 1 
 Note : Padding is used to keep the shape of the input data unchanged.
 
-# Why odd size for filter ? 1*1, 3*3, 5*5 , .....
+# Why odd size for filter ? 1 * 1, 3 * 3, 5 * 5 , .....
 The formula for padding size p = (f-1)/2, where f is the filter matrix shape. 
 Now in order to padding size (p) to be a whole number we need f to be odd. This is why it is a convention to use the odd-shaped filter matrix.
 
