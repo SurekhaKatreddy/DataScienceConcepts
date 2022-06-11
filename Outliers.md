@@ -13,6 +13,11 @@ The IQR describes the middle 50% of values when ordered from lowest to highest. 
 
 <img width="824" alt="image" src="https://user-images.githubusercontent.com/31846843/173164083-5d1b7b46-7b91-4cb9-9751-1cf6d13df7aa.png">
 
+note: Excel is a power tool for all the statistical calculations.
+Here is the macro in excel to find Quartiles : =QUARTILE.INC(H3:H7,1)
+In the above example H3: H7 is the range of the values , 1 stans for the quartile number. [1,2,3] is the supported range.
+
+
 Percentage of values in the IQR:
 50% of the values lie in the inter-quartile range(IQR)
 
