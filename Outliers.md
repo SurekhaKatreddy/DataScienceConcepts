@@ -23,6 +23,7 @@ In normal distribution, mean = median = mode of the distribution.
 68.27% values falls under 1 standard deviation of the mean.
 95% of the values fall within 2 standard deviations of the mean.
 99.7% of the values fall within 3 standard deviations of the mean.
+
 <img width="568" alt="image" src="https://user-images.githubusercontent.com/31846843/173164241-7e1292ae-b399-4e73-9915-5b985c715a91.png">
 
 
