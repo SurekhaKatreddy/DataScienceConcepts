@@ -14,9 +14,8 @@ The IQR describes the middle 50% of values when ordered from lowest to highest. 
 <img width="824" alt="image" src="https://user-images.githubusercontent.com/31846843/173164083-5d1b7b46-7b91-4cb9-9751-1cf6d13df7aa.png">
 
 Percentage of values in the IQR:
-<img width="568" alt="image" src="https://user-images.githubusercontent.com/31846843/173164241-7e1292ae-b399-4e73-9915-5b985c715a91.png">
-
 50% of the values lie in the inter-quartile range(IQR)
+
 In normal distribution, mean = median = mode of the distribution.
 μ (mu) is the mean of the distribution, and σ (sigma) is its standard deviation
 
@@ -24,6 +23,7 @@ In normal distribution, mean = median = mode of the distribution.
 68.27% values falls under 1 standard deviation of the mean.
 95% of the values fall within 2 standard deviations of the mean.
 99.7% of the values fall within 3 standard deviations of the mean.
+<img width="568" alt="image" src="https://user-images.githubusercontent.com/31846843/173164241-7e1292ae-b399-4e73-9915-5b985c715a91.png">
 
 
 
