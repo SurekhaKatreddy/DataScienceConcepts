@@ -4,9 +4,12 @@
 # Split criteria : Information gain
 
 What is entrophy?
-Randomness of data.
+Measure of randomness of data - works only with the categorical target values. 
+Lesser the entropy higher the information gain, which will lead to more homogeneous or pure nodes.
+
  <img width="694" alt="image" src="https://user-images.githubusercontent.com/31846843/174466284-88c9f301-81cc-4f9b-aa02-8ed5b64f52b9.png">
 
+ Information Gain = 1 - Entrophy
  
 # Advantages of tree based models
   1. Unimpacted by skewness in the data.
