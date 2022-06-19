@@ -1,6 +1,13 @@
 # Tree based models
  In tree based models, the internal node of the tree represents an attribute and each leaf node denotes a class label.
  
+# Split criteria : Information gain
+
+What is entrophy?
+Randomness of data.
+ <img width="694" alt="image" src="https://user-images.githubusercontent.com/31846843/174466284-88c9f301-81cc-4f9b-aa02-8ed5b64f52b9.png">
+
+ 
 # Advantages of tree based models
   1. Unimpacted by skewness in the data.
   2. Less effort preprocessing data - no scaling / normalization is required.
