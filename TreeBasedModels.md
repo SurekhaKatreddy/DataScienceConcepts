@@ -1,7 +1,7 @@
 # Tree based models
  In tree based models, the internal node of the tree represents an attribute and each leaf node denotes a class label.
  
-# Split criteria : Information gain
+# Split criteria : Information gain, Chi-square, 
 
 What is entrophy?
 Measure of randomness of data - works only with the categorical target values. 
@@ -9,13 +9,19 @@ Lesser the entropy higher the information gain, which will lead to more homogene
 
  <img width="694" alt="image" src="https://user-images.githubusercontent.com/31846843/174466284-88c9f301-81cc-4f9b-aa02-8ed5b64f52b9.png">
 
- Information Gain = 1 - Entrophy
+Information Gain = 1 - Entrophy
+ 
+ Chi-square measures the statistical significance of the differences between the child nodes and their parent nodes. 
+ It is the sum of squared standardized differences between observed and expected frequencies of target variable for each node 
+ and is calculated using this formula-
+ chi-square = SQRT[(Actual - expected)^2 / expected ]
+ The higher the value of chi-square => high homogenity in child node.
  
 # Advantages of tree based models
   1. Unimpacted by skewness in the data.
   2. Less effort preprocessing data - no scaling / normalization is required.
   3. Can be used to solve both regression and classification problems.
-  Ex: Decision tree, Random Forest, 
+  Ex: Decision tree, Random Forest
 
 # Disadvantages of tree based models
  1. Higher training time particularly for regression.
