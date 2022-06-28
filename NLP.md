@@ -7,6 +7,8 @@
 # Stemming : Store the root word. Helps identify the words with the same meaning thereby reducing the size of the corpus.
 <img width="963" alt="image" src="https://user-images.githubusercontent.com/31846843/176087643-cb87a9ad-313d-44dc-89cd-1c2aefc2d7df.png">
 
-import nltk.porterstemmer as ps
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/31846843/176091636-52fae883-2e35-4a8f-9e51-7817b2dba081.png">
 
-<img width="219" alt="image" src="https://user-images.githubusercontent.com/31846843/176087930-efab01dc-3080-4f4f-8f19-c15281ffeb27.png">
+<img width="284" alt="image" src="https://user-images.githubusercontent.com/31846843/176091825-bbd8992a-7fec-42ed-8c4e-f0a725b3e8dd.png">
+
+
