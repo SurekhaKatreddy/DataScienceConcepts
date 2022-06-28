@@ -14,11 +14,18 @@
 <img width="284" alt="image" src="https://user-images.githubusercontent.com/31846843/176091825-bbd8992a-7fec-42ed-8c4e-f0a725b3e8dd.png">
 
 # Vectorizer : Edncode text as integers to create feature vectors
+
+<img width="692" alt="image" src="https://user-images.githubusercontent.com/31846843/176092292-6de08506-5596-4334-a5f6-f9ab0798c456.png">
+
 Types of vectorizations
  1. Count vectorization : results in a sparse matrix
- 2. N-Grams
- 3. TF-IDF : Term frequence Inverse document frequency.
-<img width="692" alt="image" src="https://user-images.githubusercontent.com/31846843/176092292-6de08506-5596-4334-a5f6-f9ab0798c456.png">
+    For each observation in the data becomes a row and each word in the text column becomes a column in the sparse matrix.
+ 3. N-Grams
+ 4. TF-IDF : Term frequence Inverse document frequency.
+ 
+ <img width="802" alt="image" src="https://user-images.githubusercontent.com/31846843/176199939-8175420c-717d-4694-bf6b-dc30fe5b4ac4.png">
+
+
 
 
 
