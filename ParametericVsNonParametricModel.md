@@ -8,7 +8,8 @@
   * Simple Neural Networks
 
 For instance:
-1. Linearity regression comes with assumptions: Linearity, Homoscacity, Independence, Normality.
+1. Linearity regression comes with assumptions:  
+   Linear Relationship, Normality, No or Little Multicollinearity ,No Autocorrelation in errors, Homoscedasticity.
 2. Logistic regression does not make many of the key assumptions of Linearity regression but based on ordinary least squares algorithms.
    Independent,  No Multicollinearity, Outliers, homoscedasticity.
    
