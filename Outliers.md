@@ -33,5 +33,19 @@ In normal distribution, mean = median = mode of the distribution.
 
 image credits: wikipedia
 
+Which Machine LEarning Models Are Sensitive To Outliers?
 
+# Models sensitive to outliers : Distance based models
+  Linear Regression
+  Logistic Regression
+  Kmeans
+  Hierarichal
+  PCA
+  Neural Networks
+  KNN
 
+# Models insensitive to outliers : Tree based models
+  Decision Tree Regressor or Classifier
+  Ensemble(RF,XGboost,GB)
+  Naivye Bayes Classifier
+  SVM
